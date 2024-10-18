@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+  </head>
+  
+  <body>  
+    <h1>Cadastro de Usúario</h1>
+    <label>Primeiro Nome: <br>
+        <input type="text" required />
+    </label><br><br>
+    
+    <label>Nome do Meio:<br>
+        <input type="text" required />
+    </label><br><br>
+
+    <label>Último nome:<br>
+        <input type="text" required />
+    </label><br><br>
+
+      <fieldset>
+        <legend>Qual linguagem é sua preferida :</legend>
+
+        <label><input type="radio" name="HTML"/> HTML</label><br>
+        <label><input type="radio" name="CSS"/> CSS</label><br>
+        <label><input type="radio" name="JavaScript"/> JavaScript</label><br>  
+
+      </fieldset>
+      
+        <label>Email: <br>
+            <input type="email" required />
+        </label><br><br>
+
+        <label>Senha: <br>
+            <input type="password" pattern="[a-z0-5]{8,}" required />
+        </label><br><br>
+        
+        <label>Telefone: <br>
+            <input type="tel" required placeholder="(xx) xxxx-xxxx"  
+            pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" maxlength="12"/>
+        </label><br><br>
+
+        <label>Data de Nascimento: <br>
+            <input type="date" required placeholder="dd/mm/aaaa" maxlength="8"/>
+        </label><br><br>
+
+        <label>Cor Favorita: <br>
+            <input type="color"/>
+        </label><br><br>
+
+        <label>Idade: <br>
+            <input type="number"/>
+        </label><br><br>
+
+        <label>Gênero: <br>
+            <label><input type="radio"/> Masculino</label><br>
+            <label><input type="radio"/> Feminino</label><br>
+        </label><br><br>
+
+        <label>Escolha o time favorito: <br>
+            <label><input type="checkbox"/> Masculino</label><br>
+            <label><input type="radio"/> Feminino</label><br>
+        </label><br><br>
+
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        
+        <label for="age">Idade: <input id="age" type="number" name="age" min="13" max="120" /></label><br>
+        
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">País de Origem</option>
+            <option value="1">Brail</option>
+            <option value="2">Brasil1</option>
+            <option value="3">Brasil2</option>
+            <option value="4">Brasil3</option>
+          </select>
+        </label>
+        <br><br><br>
+      <input type="submit" value="Cadastrar" />
+      <input type="reset" value="Limpar Formulário"><br>
+
+    </form>
+  </body>
+</html>
