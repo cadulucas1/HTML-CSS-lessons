@@ -1,0 +1,22 @@
+.header{
+    display: block;
+    padding: 20px;
+    background-color: #11001C;
+}
+
+span{
+    color: #F4F4F6;
+    font-size: 40px;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  
+  a:hover, a:active {
+    color: #F9B3C9;
+  }
