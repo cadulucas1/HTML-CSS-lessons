@@ -1,22 +1,47 @@
-.header{
-    display: block;
-    padding: 20px;
-    background-color: #11001C;
+body{
+  overflow: hidden;
+  margin: 0;
+  background-image: url("cosmos.jfif");
+  background-size: cover;
 }
 
-span{
-    color: #F4F4F6;
-    font-size: 40px;
+.header{
+    display: block;
+    padding: 0.8%;
+    background-color: #11001C;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+} 
+
+.exp{
+  text-align: left;
+  position: relative;
+}
+
+.header img{
+  max-width:60px;
+  max-height:60px;
+  width: auto;
+  height: auto;
+}
+
+.conteudo{
+  display: block;
+  background-color: rgb(255, 255, 255)
 }
 
 a:link, a:visited {
     color: white;
-    padding: 15px 25px;
+    padding: 25px 25px 25px 25px;
     text-align: center;
     text-decoration: none;
 
   }
-  
-  a:hover, a:active {
-    color: #F9B3C9;
-  }
+
+a:hover, a:active {
+    color: #ceb3f9;
+}
