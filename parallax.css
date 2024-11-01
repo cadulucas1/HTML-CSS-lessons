@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+@keyframes slideIn{
+    from{
+        translate: 150ww;
+    }
+
+    to{
+        translate: 0 0;
+    }
+}
+
+.parallax :hover{
+animation-name: slideIn;
+animation-duration: 1000ms;
+animation-timing-function: ease-out;
+animation-delay: 2s;
+animation-iteration-count: 1;
+animation-direction: reverse;
+animation-fill-mode: none;
+}
+
